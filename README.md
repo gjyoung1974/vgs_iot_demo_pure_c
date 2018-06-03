@@ -3,9 +3,9 @@
 #### Poll a senor and leverage VGS Proxy/Vault platfom to to protect sensor data
 ----
 
-Uses APIs from `esp-tls` component to make a very simple HTTPS request over a secure connection, including verifying the server TLS certificate.
+Uses APIs from [esp-tls](https://github.com/espressif/esp-idf/tree/master/components/esp-tls) component to make a very simple tcp sockets based HTTPS 1.1 POST over tls1.2, including verifying the server TLS certificate. You can also harden the TLS Protocols and Ciphers a bit using `$make menuconfig` make option
  
-- This demo will use an Espressif ESP* format device with Espressif IDF C development environment.   
+- This demo will use an Espressif [ESP* format device](https://www.espressif.com) with [Espressif IDF](https://github.com/espressif/esp-idf) C development environment.   
     esp8266, esp32, etc
 
 - The demo shows how easy it is to safely, securely operate on sensor network data within the constraints of a low power - limited compute device which may need near wire speed processing at the backend
