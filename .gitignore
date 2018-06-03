@@ -2,3 +2,7 @@
 /.idea
 /build
 ./build
+/sdkconfig
+sdkconfig
+/Kconfig.projbuild
+Kconfig.projbuild
