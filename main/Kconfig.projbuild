@@ -2,13 +2,13 @@ menu "Example Configuration"
 
 config WIFI_SSID
     string "WiFi SSID"
-	default "shrutefarms2"
+	default "yourwifissid"
 	help
 		SSID (network name) for the example to connect to.
 
 config WIFI_PASSWORD
     string "WiFi Password"
-	default "Password1!Password1!"
+	default "yourpassword"
 	help
 		WiFi password (WPA or WPA2) for the example to use.
 
